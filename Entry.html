@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gratitude Journal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylee.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Gratitude Journal</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <!-- Add other navigation links here -->
+            </ul>
+        </nav>
+
+    </header>
+ 
+    <main>
+        <section id= "DKM-section">
+             <div class="container">
+            <div class="switch">
+              <input type="checkbox" id= "darkModeToggle">
+                <label for="darkModeToggle">Dark Mode</label>
+            </div> </section>
+        <section id = "prompt"><a href=Prompts.html class=clickable-section>
+            <h2>Prompts</h2>
+        </section></a>
+        <!-- Gratitude Entry Section -->
+        <section id="gratitude-entry">
+            <h2>Daily Gratitude Entry</h2>
+            
+            <div class="content-container">
+                <!-- This is the TextBox-->
+               <!-- <div id="entryText" contenteditable="true" placeholder="Write your gratitude here..."></div> -->
+                <label for="newTextBox">New Text Box:</label>
+                <textarea rows="10" cols="30" id="newTextBox"></textarea>
+                
+                <button id="saveBtn">Save</button>
+        
+            </form>
+        </section>
+        <!-- Reflection Exercises Section -->
+     <!--   <a href="reflection.html" class="clickable-section"> <section>
+           
+                <section id="reflectionExercises"">
+                    <h2>Reflection Exercises</h2>
+                    <ul id="reflectionList"></ul>
+                </section>
+            
+            </secton></a> -->
+        <a href="reflection.html" class="clickable-section">
+            <section id="reflectionExercises">
+                <h2> Reflection Exercises </h2>
+                <ul id="reflectionList"></ul>
+            </section> </a>
+
+            <!-- Content for reflection exercises goes here -->
+        </section>
+        <!-- Challenges Section -->
+       
+        <!-- Journal Entries Section -->
+        <a href="journal-entries.html" class="clickable-section">
+        <section id="entries">
+            <h2> My Entries </h2>
+            <ul id="entriesList"></ul>
+        </section> </a>
+        <!-- Achievements Section -->
+           <a href="Achievements.html" class="clickable-section">
+      <!--  <section id="achievements">
+            <h2> Achievements </h2>
+            <ul id="AchievementList"></ul>
+        </section></a> -->
+    </main>
+    <script src="js/main.js"></script>
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+
+</html>
